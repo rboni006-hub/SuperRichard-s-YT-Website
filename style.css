@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family:"Pixelify Sans",sans-serif;
+}
+
+/* centers inline-block items*/
+/* .navbar {
+        background-color: #333;
+        padding: 15pix;
+        text-align: center;
+}*/
+
+/* key part */
+/* .navbar a{
+
+    display: inline-block;
+
+
+}*/
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
