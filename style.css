@@ -23,3 +23,18 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
+hr{
+   border-color: #004fb6;
+   color:#004fb6;
+   height:3px;
+   background-color:#004fb6;
+}
+a:hover{
+     color:aliceblue
+}
+a:visited{
+        color:dimgray
+}
+a:active{
+        color:rgb(120, 255, 138)
+}
