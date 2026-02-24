@@ -4,17 +4,17 @@ body{
 }
 
 /* centers inline-block items*/
-/* .navbar {
-        background-color: #333;
+ .navbar {
+        background-color: #baff1a;
         padding: 15pix;
         text-align: center;
-}*/
+}
 
 /* key part */
 /* .navbar a{
 
     display: inline-block;
-
+    color: white;
 
 }*/
 
