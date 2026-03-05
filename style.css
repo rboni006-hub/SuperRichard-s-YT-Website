@@ -2,7 +2,18 @@ body{
     margin:0;
     font-family:"Pixelify Sans",sans-serif;
 }
-
+a:hover{
+     color:cyan
+}
+a:visited{
+        color:dimgray
+}
+a:link{
+        color:rgb(120, 255, 138)
+}
+a:active{
+        color:white;
+}
 /* centers inline-block items*/
  .navbar {
         background-color: #baff1a;
@@ -10,13 +21,19 @@ body{
         text-align: center;
 }
 
-/* key part */
-/* .navbar a{
+/* 🔑 key part */
+.navbar a{
 
     display: inline-block;
     color: white;
-
-}*/
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+.navbar a:hover{
+        background-color: #555;
+        border-radius: 4px;
+}
 
 .pixelify-sans {
   font-family: "Pixelify Sans", sans-serif;
@@ -28,13 +45,4 @@ hr{
    color:#004fb6;
    height:3px;
    background-color:#004fb6;
-}
-a:hover{
-     color:aliceblue
-}
-a:visited{
-        color:dimgray
-}
-a:active{
-        color:rgb(120, 255, 138)
 }
